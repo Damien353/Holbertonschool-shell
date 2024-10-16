@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -typef -print | wc -c
+find . -type d  -printf | wc -c
